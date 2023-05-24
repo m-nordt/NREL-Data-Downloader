@@ -7,8 +7,8 @@ from time import sleep
 from apscheduler.schedulers.background import BackgroundScheduler, BlockingScheduler
 
 #Initializing all variables
-API_KEY = 'DbxJDy4YHezd5w8248yVSkoA8OhjU4yBZjYVAa5g'
-EMAIL = "michael@nwriverpartners.org"
+API_KEY = 
+EMAIL = 
 BASE_URL = "https://developer.nrel.gov/api/nsrdb/v2/solar/psm3-2-2-download.json?"
 #Points will be very long. Is fine as long as under 142 points
 POINTS = ['114645, 112172, 112639, 113635, 114134, 113128, 114647, 112164, 113124, 114141, 114145, 112644, 113125, 113121, 112640, 113629, 111713, 112641, 113126, 114143, 113638, 114142, 114652, 112649, 114138, 113631, 114642, 113634, 112167, 112646, 113632, 114137, 114140, 113627, 114644,  113131'
